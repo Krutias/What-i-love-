@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400&display=swap');
+*{
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
+   
+}
+.navbar{
+  position:fixed ;
+  top:0;
+  z-index: 1000;
+  background-color: #2b2431;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px 20px;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(218, 196, 196, 0.3); 
+  border-bottom: 1px solid #362e2e; 
+
+
+
+}
+
+.navdiv{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  margin-left:20px;
+}
+.logo a{
+ font-family: 'Playfair Display', serif; 
+  font-size: 20px;
+  font-weight:bold;
+  color:#d6b9cf;  
+     
+}
+li{
+  list-style:none;
+  display:inline-block;
+  gap:40px;
+}
+li a{
+  color:#d6b9cf;  
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  transition:0.3s ;
+  margin-right: 20px;
+}
+li a:hover {
+  color: #ce1da8c0; 
+}
+ body{
+  background-color: #aca1b6;
+}
+.about {
+  padding: 15px 15px;
+  color: #d6b9cf;
+  
+}
+
+.about-container {
+  width:80%; 
+  margin:0 auto;       
+}
+
+.about h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #64284e;
+}
+
+.about p {
+  text-align: left;   
+
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 15px;
+  color: #332d31;
+}
+.members {
+  padding: 20px 20px;
+  color: white;
+  text-align: center;
+}
+
+.members h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #64284e;
+  text-align: center;
+}
+
+.members-container {
+  width: 80%;
+  margin:0 auto;
+  display: grid;
+  gap: 20px;
+}
+
+.member-card {
+  display: flex;               
+  align-items: center;
+  gap: 15px;
+  background: #2b2431;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: left;
+
+  transition: 0.3s;
+}
+
+.member-card:hover {
+  transform: translateY(-5px);
+}
+
+
+.member-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+.member-info h3 {
+  margin: 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+.role {
+  font-size: 13px;
+  color: #cba6c9;
+  margin: 4px 0;
+}
+
+.desc {
+  font-size: 13px;
+  color: #ddd;
+}
+
+.favorite-songs {
+  max-width: 950px;          
+  margin: 35px auto;         
+  padding: 30px;
+  background-color:  #2b2431;
+  border-radius: 10px;     
+  box-shadow: 0 4px 10px rgba(228, 174, 221, 0.815); 
+  display: grid;
+  place-items: center;      
+}
+
+.favorite-songs h2 {
+  margin-bottom: 25px;
+  color: #64284e;
+  text-align: center;
+}
+
+.favorite-songs table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;       
+}
+
+.favorite-songs th, 
+.favorite-songs td {
+  border: 1px solid #ccc;
+  padding: 15px;
+  height: 60px;              
+  text-align: center;    
+}
+
+.favorite-songs th {
+  background-color: #2b2431; 
+  color: #fff;
+}
+
+.favorite-songs td {
+  background-color: #d6b9cf; 
+}
+
+
+.footer {
+  background-color:  #2b2431;;
+  color: #d6b9cf;
+  text-align: center;
+  padding: 10px 15px;
+  width: 100%;
+  margin: 0;
+}
+
+.footer-links-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap; 
+  background-color: #3a2f3f; 
+  padding: 15px 20px;
+  border-radius: 10px;
+  width: 100%;
+  margin: 0 auto 20px auto;
+}
+
+
+.footer-links-line a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #d6b9cf;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+
+.footer-links-line img {
+  width: 22px;
+  height: 22px;
+}
+.footer-links-line a:hover {
+  color: #ff66c4;
+  transform: scale(1.05);
+}
+
+.footer-bottom {
+  border-top: 1px solid #683756;
+  padding-top: 10px;
+  font-size: 13px;
+}
+
