@@ -55,7 +55,7 @@ li a:hover {
   background-color: #aca1b6;
 }
 .about {
-  padding: 15px 15px;
+  padding: 80px 15px 15px 15px;
   color: #d6b9cf;
   
 }
@@ -66,10 +66,12 @@ li a:hover {
 }
 
 .about h2 {
+  margin-top: 30px;
   text-align: center;
   font-size: 32px;
   margin-bottom: 20px;
   color: #64284e;
+
 }
 
 .about p {

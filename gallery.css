@@ -53,11 +53,14 @@ li a{
 li a:hover {
   color: #ce1da8c0; }
 
+.gallery-section {
+  text-align: center;
+}
+
 h2{
   text-align: center;
   color: #833064;
   margin-bottom: 30px;
-  margin-top: 30px;
   font-size: 30px;
 }
 p{
@@ -68,6 +71,9 @@ p{
 
 body{
   background-color: #aca1b6;
+  padding-top: 90px;
+
+
 }
 
 
